@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ceban Pantelimon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s;
+        }
+
+        .skill-badge {
+            background: #f1f5f9;
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .language-pill {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-4xl mx-auto space-y-8">
+        
+        <!-- Header Section -->
+        <header class="card p-8 flex flex-col md:flex-row items-center gap-8">
+            <div class="w-32 h-32 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl flex items-center justify-center text-white text-4xl font-bold">
+                CP
+            </div>
+            <div class="text-center md:text-left flex-1">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Ceban <span class="gradient-text">Pantelimon</span></h1>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 text-slate-500 font-medium">
+                    <span><i class="fas fa-graduation-cap mr-2"></i>Elev Clasa 12 B</span>
+                    <span><i class="fas fa-map-marker-alt mr-2"></i>Ion Creangă 80</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Sidebar -->
+            <div class="space-y-8">
+                <!-- Contact -->
+                <section class="card p-6">
+                    <h3 class="text-lg font-bold mb-4 flex items-center">
+                        <i class="fas fa-paper-plane mr-2 text-indigo-500"></i> Să vorbim
+                    </h3>
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center text-indigo-600">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                            <span>060741914</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-purple-50 flex items-center justify-center text-purple-600">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="truncate">icloudceban@gmail.com</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Aptitudini -->
+                <section class="card p-6">
+                    <h3 class="text-lg font-bold mb-4">Aptitudini Cheie</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge">Perseverent</span>
+                        <span class="skill-badge">Ambițios</span>
+                        <span class="skill-badge">Curajos</span>
+                        <span class="skill-badge">Organizat</span>
+                        <span class="skill-badge">Responsabil</span>
+                        <span class="skill-badge">Respectuos</span>
+                    </div>
+                </section>
+
+                <!-- Limbi -->
+                <section class="card p-6">
+                    <h3 class="text-lg font-bold mb-4">Limbi Vorbite</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Română</span>
+                            <span class="text-xs font-bold text-indigo-600 uppercase">Nativ</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Engleză</span>
+                            <span class="text-xs font-bold text-slate-400 uppercase">B2 Upper</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Rusă</span>
+                            <span class="text-xs font-bold text-slate-400 uppercase">A2 Basic</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Franceză</span>
+                            <span class="text-xs font-bold text-slate-400 uppercase">A1 Beginner</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Main Content -->
+            <div class="md:col-span-2 space-y-8">
+                <!-- Despre mine -->
+                <section class="card p-8">
+                    <h3 class="text-2xl font-bold mb-4">Povestea mea</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Sunt un tânăr modest, dar cu o prezență puternică. Îmi place să îmi asum rolul de <span class="font-bold text-indigo-600 italic">lider</span> și să domin în cercurile sociale prin implicare și rezultate. Deși răbdarea nu este punctul meu forte (prefer acțiunea rapidă), sunt extrem de <span class="font-bold text-purple-600">ambițios</span> atunci când vine vorba de obiectivele care mă pasionează. Nu mă opresc până nu obțin ceea ce îmi propun!
+                    </p>
+                </section>
+
+                <!-- Educație -->
+                <section class="card p-8">
+                    <h3 class="text-xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-book-open mr-3 text-indigo-500"></i> Educație
+                    </h3>
+                    <div class="border-l-4 border-indigo-100 pl-6 relative">
+                        <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-[10px] top-1"></div>
+                        <span class="text-sm font-bold text-indigo-500 uppercase tracking-wider">2023 - Prezent</span>
+                        <h4 class="text-lg font-bold mt-1">Gimnaziul Vasile Moga</h4>
+                        <p class="text-slate-500">Elev, Clasa a 12-a</p>
+                    </div>
+                </section>
+
+                <!-- Performanță Sportivă -->
+                <section class="card p-8">
+                    <h3 class="text-xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-trophy mr-3 text-yellow-500"></i> Performanță & Sport
+                    </h3>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i class="fas fa-futbol text-2xl text-slate-700 mb-2"></i>
+                            <p class="font-bold text-sm">Fotbal</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i class="fas fa-volleyball-ball text-2xl text-slate-700 mb-2"></i>
+                            <p class="font-bold text-sm">Volei</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i class="fas fa-table-tennis text-2xl text-slate-700 mb-2"></i>
+                            <p class="font-bold text-sm">Tenis de masă</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Obiective -->
+                <section class="card p-8 bg-gradient-to-br from-indigo-600 to-purple-700 text-white">
+                    <h3 class="text-xl font-bold mb-6 flex items-center text-white">
+                        <i class="fas fa-bullseye mr-3"></i> Ce urmează? <span class="ml-2 font-normal opacity-70">#Obiective</span>
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-rocket mt-1"></i>
+                            <div>
+                                <p class="font-bold">Excelență în Management</p>
+                                <p class="text-sm text-indigo-100">Doresc să îmi dezvolt abilitățile de coordonare într-o echipă sportivă sau de business.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-globe mt-1"></i>
+                            <div>
+                                <p class="font-bold">Certificare Internațională</p>
+                                <p class="text-sm text-indigo-100">Obținerea unui certificat Cambridge (C1) pentru a-mi lărgi orizonturile academice.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-medal mt-1"></i>
+                            <div>
+                                <p class="font-bold">Competiții Regionale</p>
+                                <p class="text-sm text-indigo-100">Participarea activă la campionate de tenis de masă și volei la nivel național.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-brain mt-1"></i>
+                            <div>
+                                <p class="font-bold">Dezvoltare Personală</p>
+                                <p class="text-sm text-indigo-100">Cultivarea răbdării strategice ca instrument de succes în obținerea ambițiilor pe termen lung.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <footer class="text-center pb-8 text-slate-400 text-sm">
+            "Ambiția fără acțiune este doar un vis. Eu aleg acțiunea."
+        </footer>
+    </div>
+</body>
+</html>
